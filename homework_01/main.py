@@ -34,4 +34,4 @@ def filter_numbers(numers_list, filter_type):
     if filter_type == ODD:
         return [number for number in numers_list if number % 2 != 0]
     if filter_type == EVEN:
-        return [numer for number in numers_list if number % 2 == 0]
+        return [number for number in numers_list if number % 2 == 0]
